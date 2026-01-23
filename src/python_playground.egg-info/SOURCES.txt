@@ -1,8 +1,0 @@
-pyproject.toml
-src/python_playground/__init__.py
-src/python_playground/main.py
-src/python_playground.egg-info/PKG-INFO
-src/python_playground.egg-info/SOURCES.txt
-src/python_playground.egg-info/dependency_links.txt
-src/python_playground.egg-info/top_level.txt
-tests/test_main.py

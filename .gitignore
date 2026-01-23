@@ -10,3 +10,9 @@ __pycache__/
 
 # Test cache
 .pytest_cache/
+
+# Packaging/build artifacts
+*.egg-info/
+build/
+dist/
+
