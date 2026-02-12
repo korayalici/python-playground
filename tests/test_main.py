@@ -11,3 +11,12 @@ def test_is_even():
 def test_slugify():
     assert slugify("Hello World") == "hello-world"
     assert slugify("Python Playground") == "python-playground"
+
+def test_slugify_collapses_spaces():
+    assert slugify("Hello    World") == "hello-world"
+
+def test_slugify_strips_punctuation():
+    assert slugify("Hello, World!!!") == "hello-world"
+
+def test_slugify_trims():
+    assert slugify("  Hello World  ") == "hello-world"
